@@ -10,5 +10,5 @@ $pdf->AddPage();
 $pdf->SetFont('helvetica', '', 12);
 $pdf->Cell(0, 10, "Employee Name: " . $result['name'], 0, 1);
 $pdf->Image('uploads/' . $result['image'], '', '', 60, 40);
-$pdf->Output('employee.pdf', 'D');
+$pdf->Output('employee.pdf', 'I');
 ?>
