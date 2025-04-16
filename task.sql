@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 16, 2025 at 12:24 PM
+-- Generation Time: Apr 16, 2025 at 03:41 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -34,14 +34,6 @@ CREATE TABLE `employees` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `employees`
---
-
-INSERT INTO `employees` (`id`, `name`, `image`) VALUES
-(1, 'Vijay', '1744782547_image_search_1744265163020.jpg'),
-(5, 'Dinesh', '1744798468_uwp4730637.jpeg');
-
---
 -- Indexes for dumped tables
 --
 
@@ -59,7 +51,7 @@ ALTER TABLE `employees`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
